@@ -1,5 +1,5 @@
 id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
-1,A,../assets/images/aline.png,http://web.mta.info/nyct/service/aline.htm,Inwood-207 Street / Broadway,40.868072,-73.919899
+1,A,../assets/images/aline.png,http://web.mta.info/nyct/service/aline.htm,Inwood-207 Street / Broadway,40.868072,-73.921165
 2,A,../assets/images/aline.png,http://web.mta.info/nyct/service/aline.htm,Dyckman Street / Broadway,40.865491,-73.927271
 3,A,../assets/images/aline.png,http://web.mta.info/nyct/service/aline.htm,190 Street / Fort Washington Avenue,40.859022,-73.93418
 4,A,../assets/images/aline.png,http://web.mta.info/nyct/service/aline.htm,181 Street / Fort Washington Avenue,40.851695,-73.937969
@@ -93,7 +93,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 92,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,Broadway-Lafayette St /Bleecker St,40.732338,-74.000495
 93,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,Grand Street/Chrystie Street,40.725297,-73.996204
 94,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,DeKalb Avenue/Flatbush Avenue,40.718267,-73.993753
-95,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,Atlantic Avenue/Barclays Center,40.68446,-73.97689
+95,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,Atlantic Avenue/Barclays Center,40.684462,-73.978758
 96,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,7 Avenue/Flatbush Avenue,40.67705,-73.972367
 97,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,Prospect Park / Empire Boulevard-Flatbush Avenue,40.661614,-73.962246
 98,B,../assets/images/bline.png,http://web.mta.info/nyct/service/bline.htm,Church Avenue / East 18 Street,40.650527,-73.962982
@@ -163,7 +163,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 162,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,Broadway-Lafayette St / Bleecker St,40.725297,-73.996204
 163,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,Grand Street/Chrystie Street,40.718267,-73.993753
 164,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,DeKalb Avenue/Flatbush Avenue,40.690635,-73.981824
-165,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,Atlantic Avenue/Barclays Center /4 Avenue,40.68446,-73.97689
+165,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,Atlantic Avenue/Barclays Center /4 Avenue,40.684462,-73.978758
 166,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,Union Street/4 Avenue,40.677316,-73.98311
 167,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,4 Avenue/  9 Street,40.670847,-73.988302
 168,D,../assets/images/dline.png,http://web.mta.info/nyct/service/dline.htm,Prospect Avenue/4 Avenue,40.665414,-73.992872
@@ -396,7 +396,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 395,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,Court Street - Borough Hall / Montague Street,40.6941,-73.991777
 396,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,Jay Street - MetroTech / Fulton Street,40.69218,-73.985942
 397,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,DeKalb Avenue / Flatbush Avenue,40.690635,-73.981824
-398,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,Atlantic Avenue/Barclays Center/ 4 Avenue,40.683666,-73.97881
+398,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,Atlantic Avenue/Barclays Center/ 4 Avenue,40.684462,-73.978758
 399,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,Union Street / 4 Avenue,40.677316,-73.98311
 400,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,4 Avenue / 9 Street,40.670847,-73.988302
 401,N,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,Prospect Avenue / 4 Avenue,40.665414,-73.992872
@@ -435,7 +435,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 434,Q,../assets/images/nline.png,http://web.mta.info/nyct/service/nline.htm,Prince Street / Broadway,40.724329,-73.997702
 435,Q,../assets/images/qline.png,http://web.mta.info/nyct/service/qline.htm,Canal Street / Broadway,40.718056,-74
 436,Q,../assets/images/qline.png,http://web.mta.info/nyct/service/qline.htm,DeKalb Avenue / Flatbush Avenue,40.690635,-73.981824
-437,Q,../assets/images/qline.png,http://web.mta.info/nyct/service/qline.htm,Atlantic Avenue / Barclays Center,40.683666,-73.97881
+437,Q,../assets/images/qline.png,http://web.mta.info/nyct/service/qline.htm,Atlantic Avenue / Barclays Center,40.684462,-73.978758
 438,Q,../assets/images/qline.png,http://web.mta.info/nyct/service/qline.htm,7 Avenue / Flatbush Avenue,40.67705,-73.972367
 439,Q,../assets/images/qline.png,http://web.mta.info/nyct/service/qline.htm,Prospect Park / Empire Boulevard-Flatbush Avenue,40.661614,-73.962246
 440,Q,../assets/images/qline.png,http://web.mta.info/nyct/service/qline.htm,Parkside Avenue / Ocean Avenue,40.655292,-73.961495
@@ -486,7 +486,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 485,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,Court Street - Borough Hall / Montague Street,40.6941,-73.991777
 486,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,Jay Street-MetroTech / Fulton Street,40.69218,-73.985942
 487,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,DeKalb Avenue / Flatbush Avenue,40.690635,-73.981824
-488,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,Atlantic Avenue/Barclays Center/ 4 Avenue,40.683666,-73.97881
+488,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,Atlantic Avenue/Barclays Center/ 4 Avenue,40.684462,-73.978758
 489,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,Union Street / 4 Avenue,40.677316,-73.98311
 490,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,4 Avenue / 9 Street,40.670847,-73.988302
 491,R,../assets/images/rline.png,http://web.mta.info/nyct/service/rline.htm,Prospect Avenue / 4 Avenue,40.665414,-73.992872
@@ -606,7 +606,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 605,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Borough Hall / Court Street-Montague Street,40.693219,-73.989998
 606,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Hoyt Street / Fulton Mall,40.690545,-73.985065
 607,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Nevins Street / Flatbush Avenue,40.688246,-73.980492
-608,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Atlantic Avenue / Barclays Center,40.684359,-73.977666
+608,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Atlantic Avenue / Barclays Center,40.684462,-73.978758
 609,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Bergen Street / Flatbush Avenue,40.680829,-73.975098
 610,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Grand Army Plaza / Flatbush Avenue,40.675235,-73.971046
 611,2,../assets/images/twoline.png,http://web.mta.info/nyct/service/twoline.htm,Eastern Parkway - Brooklyn Museum,40.671987,-73.964375
@@ -637,21 +637,21 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 636,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Borough Hall / Court Street-Montague Street,40.693219,-73.989998
 637,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Hoyt Street / Fulton Mall,40.690545,-73.985065
 638,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Nevins Street / Flatbush Avenue,40.688246,-73.980492
-639,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Atlantic Avenue / Barclays Center,40.684359,-73.977666
-640,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Bergen Street / Flatbush Avenue,40.680829,-73.975098
+639,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Atlantic Avenue / Barclays Center,40.684462,-73.978758
+640,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Bergen Street / Flatbush Avenue,40.680833,-73.97511
 641,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Grand Army Plaza / Flatbush Avenue,40.675235,-73.971046
 642,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Eastern Parkway / Brooklyn Museum,40.671987,-73.964375
 643,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Franklin Avenue / Eastern Parkway,40.670682,-73.958131
-644,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Nostrand Avenue / Eastern Parkway,40.684359,-73.977666
-645,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Kingston Avenue / Eastern Parkway,40.680829,-73.975098
-646,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Crown Heights-Utica Avenue / Eastern Parkway,40.675235,-73.971046
-647,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Sutter Avenue-Rutland Road / East 98 Street,40.671987,-73.964375
-648,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Saratoga Avenue / Livonia Avenue,40.670682,-73.958131
-649,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Rockaway Avenue / Livonia Avenue,40.684359,-73.977666
+644,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Nostrand Avenue / Eastern Parkway,40.6698,-73.95052
+645,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Kingston Avenue / Eastern Parkway,40.669376,-73.942151
+646,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Crown Heights-Utica Avenue / Eastern Parkway,40.668758,-73.931208
+647,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Sutter Avenue-Rutland Road / East 98 Street,40.664884,-73.922882
+648,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Saratoga Avenue / Livonia Avenue,40.661531,-73.915586
+649,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Rockaway Avenue / Livonia Avenue,40.662541,-73.908892
 650,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Junius Street / Livonia Avenue,40.680829,-73.975098
-651,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Pennsylvania Avenue /  Livonia Avenue,40.675235,-73.971046
-652,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Van Siclen Avenue / Livonia Avenue,40.671987,-73.964375
-653,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,New Lots Avenue / Livonia Avenue,40.670682,-73.958131
+651,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Pennsylvania Avenue /  Livonia Avenue,40.664722,-73.894129
+652,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,Van Siclen Avenue / Livonia Avenue,40.665535,-73.888593
+653,3,../assets/images/threeline.png,http://web.mta.info/nyct/service/threeline.htm,New Lots Avenue / Livonia Avenue,40.666382,-73.882585
 654,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Woodlawn / Jerome Avenue,40.886037,-73.878751
 655,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Mosholu Parkway / Jerome Avenue,40.87975,-73.884655
 656,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Bedford Park Boulevard-Lehman College / Jerome Avenue,40.873412,-73.890064
@@ -676,7 +676,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 675,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,68 Street-Hunter College / Lexington Avenue,40.768141,-73.96387
 676,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,59 Street / Lexington Avenue,40.762526,-73.967967
 677,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,51 Street / Lexington Avenue,40.757107,-73.97192
-678,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Grand Central-42 Street / Lexington Avenue,40.751776,-73.976848
+678,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Grand Central-42 Street / Lexington Avenue,40.752283,-73.977519
 679,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,33 Street / Park Avenue South,40.746081,-73.982076
 680,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,28 Street / Park Avenue South,40.74307,-73.984264
 681,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,23 Street / Park Avenue South,40.739864,-73.986599
@@ -691,7 +691,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 690,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Bowling Green / Broadway,40.704817,-74.014065
 691,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Borough Hall-Court Street / Joralemon Street,40.693219,-73.989998
 692,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Nevins Street / Flatbush Avenue,40.688246,-73.980492
-693,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Atlantic Avenue / Barclays Center / Brooklyn Academy of Music,40.684359,-73.977666
+693,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Atlantic Avenue / Barclays Center / Brooklyn Academy of Music,40.684462,-73.978758
 694,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Bergen Street / Flatbush Avenue,40.680829,-73.975098
 695,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Grand Army Plaza / Flatbush Avenue,40.675235,-73.971046
 696,4,../assets/images/fourline.png,http://web.mta.info/nyct/service/fourline.htm,Eastern Parkway-Brooklyn Museum,40.671987,-73.964375
@@ -734,7 +734,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 733,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,125 Street / Lexington Avenue,40.807754,-73.945495
 734,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,86 Street / Lexington Avenue,40.779492,-73.955589
 735,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,59 Street / Lexington Avenue,40.762526,-73.967967
-736,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Grand Central-42 Street / Lexington Avenue,40.734673,-73.989951
+736,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Grand Central-42 Street / Lexington Avenue,40.752283,-73.977519
 737,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,14 Street - Union Square/ 4 Avenue,40.734673,-73.989951
 738,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Brooklyn Bridge-City Hall / Centre Street,40.713065,-74.004131
 739,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Fulton Street / Broadway,40.710368,-74.009509
@@ -742,7 +742,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 741,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Bowling Green / Broadway,40.704817,-74.014065
 742,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Borough Hall / Court Street,40.693219,-73.989998
 743,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Nevins Street / Flatbush Avenue,40.688246,-73.980492
-744,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Atlantic Avenue / Barclays Center,40.684359,-73.977666
+744,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Atlantic Avenue / Barclays Center,40.684462,-73.978758
 745,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Franklin Avenue / Eastern Parkway,40.670682,-73.958131
 746,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,President Street / Nostrand Avenue,40.667883,-73.950683
 747,5,../assets/images/fiveline.png,http://web.mta.info/nyct/service/fiveline.htm,Sterling Street / Nostrand Avenue,40.662742,-73.95085
@@ -779,7 +779,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 778,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,68 Street-Hunter College / Lexington Avenue,40.768141,-73.96387
 779,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,59 Street / Lexington Avenue,40.762526,-73.967967
 780,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,51 Street / Lexington Avenue,40.757107,-73.97192
-781,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,Grand Central-42 Street / Lexington Avenue,40.751776,-73.976848
+781,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,Grand Central-42 Street / Lexington Avenue,40.752283,-73.977519
 782,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,33 Street / Park Avenue South,40.746081,-73.982076
 783,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,28 Street / Park Avenue South,40.74307,-73.984264
 784,6,../assets/images/sixline.png,http://web.mta.info/nyct/service/sixline.htm,23 Street / Park Avenue South,40.739864,-73.986599
@@ -807,7 +807,7 @@ id,train_line,picture_url,train_url,station_name,stop_latitude,stop_longitude
 806,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,Court Square,40.747023,-73.945264
 807,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,Hunters Point Avenue / 49 Avenue / 21 Street,40.742216,-73.948916
 808,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,Vernon Boulevard-Jackson Avenue,40.742626,-73.953581
-809,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,Grand Central-42 Street / Lexington Avenue,40.751431,-73.976041
+809,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,Grand Central-42 Street / Lexington Avenue,40.752283,-73.977519
 810,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,5 Avenue - Bryant Park /42 Street,40.753821,-73.981963
 811,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,Times Square-42 Street / Broadway / 7 Avenue,40.755477,-73.987691
 812,7,../assets/images/sevenlin.png,http://web.mta.info/nyct/service/sevenlin.htm,34 St-Hudson Yards / 11 Avenue,40.755882,-74.00191
