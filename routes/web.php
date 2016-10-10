@@ -19,4 +19,16 @@ Route::get('/', function () {
 
 Route::get('/lines/', ['as'=>'lines.index','uses'=>'LineController@index']);
 Route::get('/lines/{lineId}', ['as'=>'lines.show', 'uses' => 'LineController@show']);
-Route::post('example',['as'=>'stations.example', 'uses'=>'StationController@example']);
+Route::get('example/{id}',function($id){
+    $y =  new \App\Http\Controllers\YelpController();
+    $s = \App\Station::find($id);
+    return $y->getData([
+        'latitude'=>$s->latitude,
+        'longitude'=>$s->longitude
+    ]);
+});
+
+Route::get('search/{slug}',function($slug){
+   $s = \App\Search::find($slug);
+    return collect($s->data);
+});
