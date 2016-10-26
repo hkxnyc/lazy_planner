@@ -31,11 +31,10 @@ class YelpController extends Controller
 
         $result = curl_exec($ch);
 
-        Search::createNewSearch([
-            'searchData'  => json_decode($result)
-        ]);
+        $collectedResults = collect(json_decode($result));
+        $this->addDistancesToBusinesses($collectedResults,$query);
 
-        return collect(json_decode($result));
+        return $collectedResults;
     }
 
     private  function getAuthorisation()
@@ -68,6 +67,27 @@ class YelpController extends Controller
         foreach ($curlOpts as $opt => $val) {
             curl_setopt($ch, $opt, $val);
         }
+    }
+
+    private function addDistancesToBusinesses(&$yelpResults,$query){
+        foreach($yelpResults["businesses"] as $yelp){
+            $this->addDistanceInMiles($yelp,$query);
+        }
+    }
+
+    private function addDistanceInMiles(&$business,$query){
+        $lon1 = $query["longitude"];
+        $lat1 = $query["latitude"];
+        $lon2 = $business->coordinates->longitude;
+        $lat2 = $business->coordinates->latitude;
+        $theta = $lon1 - $lon2;
+        $dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta));
+        $dist = acos($dist);
+        $dist = rad2deg($dist);
+        $miles = $dist * 60 * 1.1515;
+
+        // set
+        $business->distance = $miles;
     }
 
 }

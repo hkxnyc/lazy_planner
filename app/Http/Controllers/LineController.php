@@ -22,7 +22,7 @@ class LineController extends Controller
 
         return view('examplestations')->with([
             'line'=>$lines,
-            'title' => 'Viewing Line '.$lines->name
+            'title' => 'Viewing Line: '.$lines->name
         ]);
     }
 

@@ -88,5 +88,8 @@
                 </div>
             </div>
         </div>
+        <example :text-input="text"></example>
+        <example :text-input="text"></example>
+        <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>

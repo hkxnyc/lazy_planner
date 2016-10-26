@@ -25,6 +25,7 @@ class Search extends Model
 
         $s->data = $data;
         $s->save();
+        return $s;
     }
 
 }

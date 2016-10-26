@@ -1,11 +1,11 @@
 @extends('layouts.main')
 @section('content')
     <h1><a href="{{$line->info_url}}">{{$line->name}}</a></h1>
-    <form action="{{route('stations.example')}}" method="POST">
+    <form action="{{route('stations.yelpdata')}}" method="POST">
         {{csrf_field()}}
         <ul>
             @foreach($line->stations as $station)
-                <li><input type="checkbox" name="stations[]" value="{{$station->id}}">{{$station->name}} ({{$station->longitude}}, {{$station->latitude}})</li>
+                <li><label><input type="checkbox" name="stations[]" value="{{$station->id}}">{{$station->name}} </label></li>
             @endforeach
         </ul>
         <button>Save</button>
