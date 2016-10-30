@@ -9,7 +9,8 @@ use App\Http\Requests;
 
 class LineController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         $lines = Line::all();
         return view('exampleline')->with([
             'lines'=>$lines,
@@ -17,7 +18,8 @@ class LineController extends Controller
         ]);
     }
 
-    public function show($lineId){
+    public function show($lineId)
+    {
         $lines = Line::with('stations')->where('name','like',$lineId)->first();
 
         return view('examplestations')->with([
@@ -26,8 +28,8 @@ class LineController extends Controller
         ]);
     }
 
-    public function getDataFromYelp($latitude,$longitude){
+    public function getDataFromYelp($latitude,$longitude)
+    {
         $ch = curl_init();
-
     }
 }

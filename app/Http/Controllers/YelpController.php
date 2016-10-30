@@ -16,7 +16,7 @@ class YelpController extends Controller
     public function getData(array $query)
     {
         if(!isset($this->authData) || is_null($this->authData))
-            $this->authData = $this->getAuthorisation();
+            $this->authData = $this->getAuthorization();
         $header = ['Authorization: '.$this->authData->get('token_type').' '.$this->authData->get('access_token')];
         $queryString = http_build_query($query);
 
@@ -37,7 +37,7 @@ class YelpController extends Controller
         return $collectedResults;
     }
 
-    private  function getAuthorisation()
+    private  function getAuthorization()
     {
         $ch = curl_init();
 
@@ -69,13 +69,15 @@ class YelpController extends Controller
         }
     }
 
-    private function addDistancesToBusinesses(&$yelpResults,$query){
+    private function addDistancesToBusinesses(&$yelpResults,$query)
+    {
         foreach($yelpResults["businesses"] as $yelp){
             $this->addDistanceInMiles($yelp,$query);
         }
     }
 
-    private function addDistanceInMiles(&$business,$query){
+    private function addDistanceInMiles(&$business,$query)
+    {
         $lon1 = $query["longitude"];
         $lat1 = $query["latitude"];
         $lon2 = $business->coordinates->longitude;
@@ -86,8 +88,6 @@ class YelpController extends Controller
         $dist = rad2deg($dist);
         $miles = $dist * 60 * 1.1515;
 
-        // set
         $business->distance = $miles;
     }
-
 }

@@ -28,7 +28,8 @@ class StationController extends Controller
         return ['businesses'=>$businesses,'stations'=>$stations];
     }
 
-    public function showYelpData(Request $request){
+    public function showYelpData(Request $request)
+    {
         $data = $this->getYelpData($request->get('stations'));
         $s = Search::createNewSearch($data);
         return redirect()->route('stations.search',['slug'=>$s->slug]);

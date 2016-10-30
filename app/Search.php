@@ -19,7 +19,8 @@ class Search extends Model
     ];
 
 
-    public static function createNewSearch($data){
+    public static function createNewSearch($data)
+    {
         $s = new Search();
         $s->slug = str_random(16);
 
@@ -27,5 +28,4 @@ class Search extends Model
         $s->save();
         return $s;
     }
-
 }

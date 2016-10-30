@@ -15,7 +15,8 @@ class Line extends Model
         'info_url',
     ];
 
-    public function stations(){
+    public function stations()
+    {
         return $this->belongsToMany('App\Station','line_station');
     }
 }

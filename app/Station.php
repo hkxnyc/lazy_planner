@@ -17,11 +17,13 @@ class Station extends Model
     ];
 
 
-    public function lines(){
+    public function lines()
+    {
         return $this->belongsToMany('App\Line','line_station');
     }
 
-    public function positionArray(){
+    public function positionArray()
+    {
         return ['longitude'=>$this->longitude,'latitude'=>$this->latitude];
     }
 }
